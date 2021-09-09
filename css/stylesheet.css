@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: larger;
+}
+
+.formLayout
+{
+    background-color: darkorchid;
+    border-radius: 15px;
+}
+
+input
+{
+    border-radius: 5px;
+    border: none;
+}
+
+table
+{
+    border-collapse: separate;
+    border-spacing: 8px 15px;
+    line-height: 2rem;
+}
+
+td
+{
+    width:200px;
+}
+
+input
+{
+    width : 500px;
+}
