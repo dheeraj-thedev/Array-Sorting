@@ -1,8 +1,8 @@
 'use strict'
-        var displayTableData = document.getElementById('displayTableData'); 
+        var displayTableData = document.getElementById('displayData'); 
         displayTableData.addEventListener('click',function(event)
         {
-            event.preventDefault()
+            event.preventDefault();
             document.getElementById('displayTableData').innerHTML='';
                        
             if (users.length==0)
